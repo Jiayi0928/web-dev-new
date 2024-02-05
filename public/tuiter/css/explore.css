@@ -59,6 +59,7 @@ input::placeholder{
 .wd-mid{
     border-left: solid 1px rgb(47, 51, 54);
     border-right: solid 1px rgb(47, 51, 54);
+
 }
 .wd-title{
     color: white;
@@ -124,7 +125,8 @@ p.content{
 
 .list-group-item.override-bs{
     display: flex!important;
-    background-color: black;
+    /*background-color: black;*/
+    background-color: rgb(23, 23, 23)!important;
 
     /*align-items: center;*/
 }
@@ -156,9 +158,13 @@ p.handle{
 
 
 .list-group-item.icon{
-    background-color: black!important;
-    color: lightgrey;
-    border:none;
+    /*background-color: black!important;*/
+    /*color: lightgrey;*/
+    /*border:none;*/
+
+    background-color: rgb(23, 23, 23)!important;
+    color: white!important;
+    border: none;
 }
 
 .list-group-item.icon:hover{
@@ -216,12 +222,84 @@ p.handle{
     font-weight: bold;
     font-size: 20px;
 }
-.wd-follow .btn-primary{
-    background-color: lightgrey!important;
-    color: black;
-    border:none;
-}
+/*.wd-follow .btn-primary{*/
+/*    background-color: lightgrey!important;*/
+/*    color: black;*/
+/*    border:none;*/
+/*}*/
 .wd-show-more{
     color:rgb(29, 161, 242);
 }
 
+.wd-avatar{
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+}
+.wd-left{
+    display: inline-block;
+    float: left;
+    margin-top: 12px;
+    margin-left: 16px;
+}
+.wd-bm-user{
+    font-size: 15px;
+    color: white;
+    font-family: Helvetica;
+    margin-left: 76px;
+}
+.wd-bm-handle{
+    font-size: 15px;
+    color: lightgrey;
+    font-family: Helvetica;
+}
+.wd-passage{
+    width: 506px;
+    margin: 0 16px 12px 12px;
+
+}
+p.passage{
+
+    font-size: 15px;
+    color: white;
+    margin-left: 64px;
+}
+.wd-border-img{
+    border-radius: 13px;
+    border-color: lightgrey;
+    border-width: 1px;
+    border-style: solid;
+
+}
+
+.wd-below{
+    margin-left: 60px;
+}
+.wd-image{
+    width: 100%;
+    object-fit: cover;
+    border-radius: 13px 13px 0 0;
+}
+.wd-image-none{
+    width: 100%;
+    object-fit: cover;
+    border-radius: 13px;
+}
+
+.wd-below-text{
+    font-size: 15px;
+    font-family: Helvetica;
+    margin: 12px;
+}
+p.below{
+    line-height: 150%;
+}
+.wd-lightgrey{
+    color: lightgrey;
+}
+.wd-dot {
+    float: right;
+    padding-right: 0;
+    margin-left: auto;
+    padding-top: 0;
+}
