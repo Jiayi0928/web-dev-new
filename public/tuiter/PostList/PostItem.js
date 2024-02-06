@@ -1,5 +1,5 @@
 const PostItem = (post) => {
-    if(post.tile == "" || post.content === "" || post.url == ""){return(`
+    if(post.tile === "" || post.content === "" || post.url === ""){return(`
         
          <li class="list-group-item">
         <div class="wd-left">
