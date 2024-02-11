@@ -1,7 +1,8 @@
 import React from "react";
-import {Link} from "react-router-dom";
+import {Link, useLocation} from "react-router-dom";
 
-const NavigationSidebar = ({active = 'explore'}) => {
+const NavigationSidebar = ({active = 'home'}) => {
+    const {pathname} = useLocation();
     return(
         <div className="list-group">
             <li className="list-group-item">
@@ -12,7 +13,7 @@ const NavigationSidebar = ({active = 'explore'}) => {
             </Link>
             </li>
 
-            <li className={`list-group-item-action list-group-item  ${active === 'home' ? 'active':''}`}>
+            <li className={`list-group-item-action list-group-item  ${(pathname === '/tuiter/home' || pathname === '/tuiter/') ? 'active':''}`}>
                 <Link to="/tuiter/home" className="list-group-item-action text-decoration-none">
                     <div className="row">
                         <div className="col-1">
@@ -24,7 +25,7 @@ const NavigationSidebar = ({active = 'explore'}) => {
 
             </li>
 
-            <li className={`list-group-item-action  list-group-item  ${active === 'explore' ? 'active':''}`}>
+            <li className={`list-group-item-action  list-group-item  ${pathname === '/tuiter/explore' ? 'active':''}`}>
                 <Link to="/tuiter/explore" className="list-group-item-action text-decoration-none">
         <div className="row">
             <div className="col-1">
@@ -79,8 +80,8 @@ const NavigationSidebar = ({active = 'explore'}) => {
         </div>
                 </a></li>
 
-                <li className={`list-group-item-action list-group-item  ${active === 'profile' ? 'active':''}`}>
-                    <a href="#" className="list-group-item-action text-decoration-none">
+                <li className={`list-group-item-action list-group-item  ${pathname === '/tuiter/profile' ? 'active':''}`}>
+                    <a href="/tuiter/profile" className="list-group-item-action text-decoration-none">
 
         <div className="row">
             <div className="col-1">
