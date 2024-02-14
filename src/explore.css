@@ -1,0 +1,358 @@
+.btn-primary.override-bs {
+
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(29, 161, 242) !important;
+    font-weight: bold;
+
+}
+
+.wd-search-section{
+    display: inline-flex;
+    align-items: center;
+    width: 100%;
+    padding-top:20px;
+    padding-left: 20px;
+
+}
+
+
+.fa-search.wd-search-icon{
+    color: dimgrey;
+    padding-left: 20px;
+    position: absolute;
+}
+
+.wd-search-section>input[type=text]{
+    border: 2px solid rgb(47, 51, 54);
+    border-radius: 50px;
+    /*margin-left: 30px;*/
+    padding-left: 50px;
+    width: 95%;
+    background-color: rgb(47, 51, 54);
+}
+
+input::placeholder{
+    color: dimgrey!important;
+}
+.wd-cog{
+    color: lightgrey;
+    font-size: 20px;
+    margin-left: 5%;
+    padding-right: 30px;
+}
+
+.wd-selected-tab{
+    color: grey!important;
+}
+
+.wd-image-container{
+    position: relative;
+    text-align: center;
+}
+
+.wd-image{
+    width: 100%;
+    object-fit: cover;
+}
+.wd-mid{
+    border-left: solid 1px rgb(47, 51, 54);
+    border-right: solid 1px rgb(47, 51, 54);
+
+}
+.wd-title{
+    color: white;
+    left:10px;
+    bottom:5px;
+    position: absolute;
+    margin-bottom: 0;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Helvetica;
+    z-index: 1;
+}
+
+
+/*.wd-below-image{*/
+/*    border-radius: 0!important;*/
+/*    !*border-color: rgb(47, 51, 54);*!*/
+/*}*/
+.wd-below-image .list-group.override-bs{
+    border-radius: 0!important;
+    /*border-color: dimgrey;*/
+
+}
+.wd-below-image .list-group-item.override-bs{
+    border-color: rgb(47, 51, 54) !important;
+    /*border-style: solid;*/
+    border-width: 0px;
+}
+
+.wd-user{
+    /*font-weight: bold;*/
+    font-family: Helvetica;
+    color: white;
+}
+.wd-grey{
+    color: grey;
+}
+
+p.mb-0{
+    margin-bottom: 0;
+}
+p.content{
+    max-width: 506px;
+    line-height:130%;
+    margin-bottom: 0;
+    color: white;
+}
+
+.wd-section-left{
+    float: left;
+}
+.wd-section-right{
+    float: right;
+    margin-left: auto;
+    /*padding: 12px 16px;*/
+}
+.wd-pic{
+    object-fit: cover;
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+}
+
+.list-group-item.override-bs{
+    display: flex!important;
+    /*background-color: black;*/
+    background-color: rgb(23, 23, 23)!important;
+
+    /*align-items: center;*/
+}
+
+.wd-user-img{
+    border-radius: 50%;
+    width: 48px;
+    height: 48px;
+    float: left;
+}
+
+.wd-info{
+    float:left;
+    margin-left: 5%;
+}
+
+.wd-white{
+    color: white;
+}
+
+p.handle{
+    margin-top:0;
+}
+
+.wd-follow{
+    float: right;
+    margin-left: auto;
+}
+
+
+.list-group-item.icon{
+    /*background-color: black!important;*/
+    /*color: lightgrey;*/
+    /*border:none;*/
+
+    background-color: rgb(23, 23, 23)!important;
+    color: white!important;
+    border: none;
+}
+
+.list-group-item.icon:hover{
+    background-color: rgb(47, 51, 54)!important;
+}
+
+.list-group-item.active{
+
+    font-weight: bold;
+}
+.wd-bird{
+    font-size: 25px;
+}
+
+.nav-link.wd-nav{
+    border-top:none!important;
+    border-left: none!important;
+    border-right: none!important;
+    border-bottom: 1px solid rgb(47, 51, 54)!important;
+    font-weight: bold;
+    color: lightgrey!important;
+}
+
+.nav-link.wd-nav.active{
+    text-decoration: underline;
+    text-decoration-color: rgb(29, 161, 242);
+    background-color: black!important;
+    color: white!important;
+    text-underline-offset: 0.7em;
+    text-decoration-thickness: 4px ;
+}
+
+
+.nav-link.wd-nav:hover{
+    background-color: rgb(47, 51, 54)!important;
+}
+
+.wd-following-list{
+    margin-top: 5px;
+}
+
+.wd-following-list .list-group{
+    border-radius: 30px;
+}
+.wd-following-list .list-group-item{
+    background-color: rgb(23, 23, 23)!important;
+    color: white!important;
+    border: none;
+}
+.wd-following-list .list-group-item:hover{
+    background-color: #373b3e!important;
+}
+
+.wd-who-to-follow{
+    font-weight: bold;
+    font-size: 20px;
+}
+/*.wd-follow .btn-primary{*/
+/*    background-color: lightgrey!important;*/
+/*    color: black;*/
+/*    border:none;*/
+/*}*/
+.wd-show-more{
+    color:rgb(29, 161, 242);
+}
+
+.wd-avatar{
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+}
+.wd-left{
+    display: inline-block;
+    float: left;
+    margin-top: 12px;
+    margin-left: 16px;
+}
+.wd-bm-user{
+    font-size: 15px;
+    color: white;
+    font-family: Helvetica;
+    margin-left: 76px;
+}
+.wd-bm-handle{
+    font-size: 15px;
+    color: lightgrey;
+    font-family: Helvetica;
+}
+.wd-passage{
+    width: 100%;
+    margin: 0 16px 12px 12px;
+
+}
+p.passage{
+
+    font-size: 15px;
+    color: white;
+    margin-left: 64px;
+}
+.wd-border-img{
+    border-radius: 13px;
+    border-color: lightgrey;
+    border-width: 1px;
+    border-style: solid;
+
+}
+.wd-red{
+    color: red;
+}
+.wd-edit-button {
+    border-color: #2f3336;
+    float: right;
+}
+
+.wd-edit-box{
+    background-color: black;
+    border-color: #2f3336;
+    border-style: solid;
+    border-width: 2px;
+    color: white;
+}
+
+.wd-save-button {
+    float: right;
+    background-color: white;
+    color:black;
+    font-weight: bold;
+}
+.wd-below{
+    margin-left: 60px;
+}
+.wd-image{
+    width: 100%;
+    object-fit: cover;
+    border-radius: 13px 13px 0 0;
+}
+
+.wd-textarea {
+    background: #000;
+    border-color: #000 #000 #373b3e;
+    color: #373b3e;
+    width: 100%;
+}
+.wd-tuit{
+    float: right;
+    margin-left: auto;
+}
+.wd-banner{
+    width:100%;
+    height: 200px;
+}
+.wd-edit-img {
+    border-radius: 50%;
+    height: 180px;
+    margin-left: 20px;
+    margin-top: -100px;
+    position: relative;
+    width: 180px;
+}
+
+.wd-icon-below{
+    color: #1da1f2;
+    margin-left: 50px;
+}
+.wd-ft{
+    font-size: 20px;
+}
+
+.wd-image-none{
+    width: 100%;
+    object-fit: cover;
+    border-radius: 13px;
+}
+
+.wd-below-text{
+    font-size: 15px;
+    font-family: Helvetica;
+    margin: 12px;
+}
+p.below{
+    line-height: 150%;
+}
+.wd-lightgrey{
+    color: lightgrey;
+}
+.wd-dot {
+    float: right;
+    padding-right: 0;
+    margin-left: auto;
+    padding-top: 0;
+}

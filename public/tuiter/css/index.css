@@ -1,0 +1,262 @@
+.wd-bg-black{
+    background-color: black;
+}
+.wd-border{
+    border-color: rgb(47, 51, 54);
+    border-width: 2px;
+    border-style: solid;
+    padding-bottom: 16px;
+    margin-top: -2px;
+}
+
+.wd-bookmarks-border{
+    border-color: rgb(47, 51, 54);
+    border-width: 1px;
+    border-style: solid;
+    margin-top: -1px;
+}
+
+.wd-rounded-corners{
+    border-color: rgb(47, 51, 54);
+    border-radius: 50px;
+}
+.wd-bg-grey{
+    background-color: grey;
+}
+
+.wd-search{
+    background-color: darkgray;
+    color: white;
+    width: 85%;
+    height: 20px;
+    margin-top: 12px;
+    margin-left: 12px;
+    margin-bottom: 12px;
+    border-color: rgb(118,118,118);
+    border-radius: 50px;
+    border-style: solid;
+    padding: 5px;
+}
+
+
+.wd-user{
+    color: white;
+    font-weight: bold;
+    font-family: Helvetica;
+    font-size: 13px;
+ }
+
+.wd-time{
+    font-size: 13px;
+    font-family: Helvetica;
+    font-weight: bold;
+    color: rgb(110,118, 125);
+}
+.wd-gear{
+    float: right;
+    width: 40px;
+    height: 40px;
+    margin-top: 5px;
+
+}
+.wd-with-img{
+    height: 116px;
+}
+.wd-img{
+    float: right;
+    width: 100px;
+    height: 100px;
+    margin: 16px 16px 16px 0;
+    border-radius: 10px;
+    object-fit: cover;
+}
+.wd-preview{
+    float: left;
+    width: 500px;
+    margin-left: 16px;
+}
+.wd-tab-selected{
+    color: rgb(29,161,242);
+    border-bottom-color: rgb(29,161,242);
+    border-bottom-style: solid;
+    border-bottom-width: medium;
+}
+
+p.special{
+    line-height: 150%;
+}
+
+.wd-tab{
+
+    font-size: 15px;
+    font-weight: bold;
+    font-family: Helvetica;
+    padding: 16px 0;
+    text-decoration: none;
+    margin: 0 16px;
+}
+
+.wd-clear{
+    clear: both;
+}
+
+.wd-tab:hover{
+    border-bottom-color: rgb(29,161,242);
+    border-bottom-style: solid;
+    border-bottom-width: medium;
+}
+.wd-tab-color{
+    color: rgb(110,118, 125);
+}
+
+
+.wd-trending{
+     font-size: 13px;
+     color: rgb(110, 118, 125);
+     font-family: Helvetica;
+ }
+
+.wd-handle{
+    font-size: 13px;
+    color: lightgrey;
+    font-family: Helvetica;
+    padding-top: 0;
+}
+
+
+.wd-title{
+    color: white;
+    font-weight: bold;
+    font-family: Helvetica;
+}
+.wd-head-white{
+    color: white;
+}
+
+.wd-text{
+    margin-left: 16px;
+}
+
+.wd-content{
+    padding-left: 16px;
+}
+
+.wd-topic{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Helvetica;
+}
+
+p.first-line{
+    margin-top: 16px;
+    margin-bottom: 5px;
+}
+p.rest-line{
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+p.bookmarks{
+    margin-top: 12px;
+    margin-bottom: 0;
+}
+p.handle{
+    margin-top: 2px;
+    margin-bottom: 12px;
+}
+
+.wd-avatar{
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+}
+.wd-section-left{
+    display: inline-block;
+    float: left;
+    margin-top: 12px;
+    margin-left: 16px;
+}
+
+.wd-bm-user{
+    font-size: 15px;
+    color: white;
+    font-family: Helvetica;
+    margin-left: 76px;
+}
+.wd-bm-handle{
+    font-size: 15px;
+    color: lightgrey;
+    font-family: Helvetica;
+}
+.wd-passage{
+    width: 506px;
+    margin: 0 16px 12px 12px;
+
+}
+p.passage{
+
+    font-size: 15px;
+    color: white;
+    margin-left: 64px;
+}
+
+.wd-main-block{
+    width: 500px;
+    float: left;
+}
+
+.wd-border-img{
+    border-radius: 13px;
+    border-color: lightgrey;
+    border-width: 1px;
+    border-style: solid;
+    width: 504px;
+}
+
+.wd-below{
+    margin-left: 60px;
+}
+
+.wd-image{
+    width: 504px;
+    height: 264px;
+    object-fit: cover;
+    border-radius: 13px 13px 0 0;
+}
+
+.wd-below-text{
+    font-size: 15px;
+    font-family: Helvetica;
+    margin: 12px;
+}
+
+.wd-white{
+    color: white;
+}
+
+.wd-lightgrey{
+    color: lightgrey;
+}
+p.below{
+    line-height: 150%;
+}
+
+.wd-bar{
+
+    margin-left: 60px;
+    width: 504px;
+}
+ul{
+    padding-left: 0;
+    display: flex;
+    justify-content: flex-start;
+}
+li:nth-child(n+2){
+    margin-left: 88px;
+}
+.wd-num{
+    padding-left: 12px;
+}
+.wd-red{
+    color: red;
+}

@@ -1,0 +1,14 @@
+{
+  "firstName": "Jiayi",
+  "lastName": "Ma",
+  "handle": "jiayi",
+  "bio": "Retuits and likes are not endorsements.",
+  "website": "youtube.com/webdevtv",
+  "location": "Boston, MA",
+  "dateOfBirth": "9/28/1998",
+  "dateJoined": "04/2019",
+  "followingCount": 312,
+  "followersCount": 180,
+  "avatar" : "./pics/profile.jpg",
+  "banner": "./pics/banner.jpg"
+}
